@@ -14,7 +14,7 @@ namespace XmlHelpers
         /// <param name="typeToSerialise">The object to serialise.</param>
         /// <param name="type">The object type you are serialising.</param>
         /// <param name="extraTypes">If you are using any derived types then pass them in here.</param>
-        /// <returns></returns>
+        /// <returns>string</returns>
         public static string SerialiseToXml(this object typeToSerialise, Type type, Type[] extraTypes = null)
         {
             XmlSerializer xmlSerializer = new XmlSerializer(type);
@@ -36,7 +36,7 @@ namespace XmlHelpers
         /// </summary>
         /// <typeparam name="T">The type to desrialise to.</typeparam>
         /// <param name="xml">The XML string you are deserialising.</param>
-        /// <returns></returns>
+        /// <returns>T</returns>
         public static T DeserialiseXml<T>(this string xml)
         {
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(T));
