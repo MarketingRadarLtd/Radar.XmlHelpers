@@ -9,11 +9,11 @@ namespace XmlHelpers
     public static class XmlExtensions
     {
         /// <summary>
-        /// 
+        /// Serialises an object to an XML string.
         /// </summary>
-        /// <param name="typeToSerialise"></param>
-        /// <param name="type"></param>
-        /// <param name="extraTypes"></param>
+        /// <param name="typeToSerialise">The object to serialise.</param>
+        /// <param name="type">The object type you are serialising.</param>
+        /// <param name="extraTypes">If you are using any derived types then pass them in here.</param>
         /// <returns></returns>
         public static string SerialiseToXml(this object typeToSerialise, Type type, Type[] extraTypes = null)
         {
@@ -32,10 +32,10 @@ namespace XmlHelpers
         }
 
         /// <summary>
-        /// 
+        /// Deserialises an XML string to a specified type.
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="xml"></param>
+        /// <typeparam name="T">The type to desrialise to.</typeparam>
+        /// <param name="xml">The XML string you are deserialising.</param>
         /// <returns></returns>
         public static T DeserialiseXml<T>(this string xml)
         {
