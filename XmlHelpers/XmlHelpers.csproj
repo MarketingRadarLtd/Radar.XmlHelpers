@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Derren</Authors>
+    <Company>Marketing Radar Ltd</Company>
+    <Copyright>2020</Copyright>
+    <Description>A simple .NET Standard 2.0 library containing two extension methods.  Serialise and deserialise.  Done!</Description>
+  </PropertyGroup>
+
+</Project>
