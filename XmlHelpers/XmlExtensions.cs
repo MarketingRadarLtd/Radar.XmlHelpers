@@ -4,7 +4,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace XmlHelpers
+namespace Radar.Helpers.Xml
 {
     public static class XmlExtensions
     {

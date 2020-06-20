@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -9,7 +9,7 @@
     <Description>A simple .NET Standard 2.0 library containing two extension methods.  Serialise and deserialise.  Done!</Description>
     <PackageProjectUrl>https://github.com/MarketingRadarLtd/Radar.XmlHelpers</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MarketingRadarLtd/Radar.XmlHelpers</RepositoryUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
 </Project>
