@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Radar.Helpers.Xml</name>
+    </assembly>
+    <members>
+        <member name="T:Radar.Helpers.Xml.XmlExtensions">
+            <summary>
+            Extensions methods for XML serialisation and deserialisation.
+            </summary>
+        </member>
+        <member name="M:Radar.Helpers.Xml.XmlExtensions.SerialiseToXml(System.Object,System.Type,System.Type[])">
+            <summary>
+            Serialises an object to an XML string.
+            </summary>
+            <param name="typeToSerialise">The object to serialise.</param>
+            <param name="type">The object type you are serialising.</param>
+            <param name="extraTypes">If you are using any derived types then pass them in here.</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Radar.Helpers.Xml.XmlExtensions.DeserialiseXml``1(System.String)">
+            <summary>
+            Deserialises an XML string to a specified type.
+            </summary>
+            <typeparam name="T">The type to desrialise to.</typeparam>
+            <param name="xml">The XML string you are deserialising.</param>
+            <returns>T</returns>
+        </member>
+    </members>
+</doc>

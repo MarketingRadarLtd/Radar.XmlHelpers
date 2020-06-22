@@ -9,7 +9,13 @@
     <Description>A simple .NET 4.7 and .NET Standard 2.0 library containing two extension methods.  Serialise and deserialise.  Done!</Description>
     <PackageProjectUrl>https://github.com/MarketingRadarLtd/Radar.XmlHelpers</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MarketingRadarLtd/Radar.XmlHelpers</RepositoryUrl>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <DocumentationFile>Radar.Helpers.Xml.xml</DocumentationFile>
+  </PropertyGroup>
+
+
 
 </Project>

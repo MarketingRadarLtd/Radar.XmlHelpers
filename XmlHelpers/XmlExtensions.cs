@@ -6,6 +6,9 @@ using System.Xml.Serialization;
 
 namespace Radar.Helpers.Xml
 {
+    /// <summary>
+    /// Extensions methods for XML serialisation and deserialisation.
+    /// </summary>
     public static class XmlExtensions
     {
         /// <summary>
@@ -47,10 +50,10 @@ namespace Radar.Helpers.Xml
                 return (T)xmlSerializer.Deserialize(xmlReader);
             }
         }
-    }
 
-    public class Utf8StringWriter : StringWriter
-    {
-        public override Encoding Encoding => Encoding.UTF8;
+        private class Utf8StringWriter : StringWriter
+        {
+            public override Encoding Encoding => Encoding.UTF8;
+        }
     }
 }
